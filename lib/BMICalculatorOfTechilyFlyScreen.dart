@@ -56,11 +56,18 @@ class _BMICalculatorOfTechilyFlyScreenState
                       fontSize: 14,
                       fontWeight: FontWeight.w400),
                 ),
+                Text(
+                  "Developed by 'AbdurRahmanG.com' ",
+                  style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w400),
+                ),
                 SizedBox(
                   height: 32,
                 ),
                 Text(
-                  "Height in (CM)",
+                  "Height (CM)",
                   style: TextStyle(
                       color: Colors.grey,
                       fontSize: 24,
@@ -91,7 +98,7 @@ class _BMICalculatorOfTechilyFlyScreenState
                   height: 24,
                 ),
                 Text(
-                  "Weight in (KG)",
+                  "Weight (KG)",
                   style: TextStyle(
                       color: Colors.grey,
                       fontSize: 24,
@@ -143,7 +150,7 @@ class _BMICalculatorOfTechilyFlyScreenState
                       Icons.favorite,
                       color: Colors.white,
                     ),
-                    label: Text("Calculate"),
+                    label: Text("Calculate BMI"),
                     textColor: Colors.white,
                     color: Colors.pink,
                   ),
