@@ -78,7 +78,7 @@ class BMIResultScreen extends StatelessWidget {
                   Icons.arrow_back_ios,
                   color: Colors.white,
                 ),
-                label: Text("Let's Calculate BMI Again!"),
+                label: Text("Let's Calculate BMI. Again!"),
                 textColor: Colors.white,
                 color: Colors.pink,
               ),
