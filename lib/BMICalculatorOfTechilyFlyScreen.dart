@@ -131,7 +131,7 @@ class _BMICalculatorOfTechilyFlyScreenState
                         } else if(_bmi > 25 && _bmi <= 30) {
                           _bmiModel = BMIModel(bmi: _bmi, isNormal: false, comments: "You are OverWeighted. (BMI = Body Mass Index)");
                         } else {
-                          _bmiModel = BMIModel(bmi: _bmi, isNormal: false, comments: "You are Obese");
+                          _bmiModel = BMIModel(bmi: _bmi, isNormal: false, comments: "You are Obese. (BMI = Body Mass Index)");
                         }
                       });
 
